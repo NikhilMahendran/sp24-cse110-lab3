@@ -17,7 +17,7 @@ body {
 
 /* CSS Variables & Fallbacks */
 :root {
-  --main-color: red; /* CSS variable */
+  --main-color: lightblue; /* CSS variable */
 }
 
 body {
