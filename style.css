@@ -110,8 +110,8 @@ a:active {
 
 /* Video */
 video {
-    max-width: 100%; /* This will make the video width the same as its container */
-    max-height: 100%; /* This will make the video height the same as its container */
+    max-width: 50%; /* This will make the video width the same as its container */
+    max-height: 50%; /* This will make the video height the same as its container */
     height: auto; /* This will maintain the aspect ratio of the video */
 }
 
