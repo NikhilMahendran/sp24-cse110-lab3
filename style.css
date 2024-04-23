@@ -1,0 +1,116 @@
+/* Comment */
+/* This is a comment */
+
+/* Color */
+body {
+  color: rgb(0, 0, 0); /* RGB color */
+  color: rgba(0, 0, 0, 1); /* RGBA color */
+  color: #000; /* Hex color */
+  color: hsl(0, 0%, 0%); /* HSL color */
+  color: hsla(0, 0%, 0%, 1); /* HSLA color */
+  color: orange; /* Color name */
+}
+
+/* CSS Variables & Fallbacks */
+:root {
+  --main-color: red; /* CSS variable */
+}
+
+body {
+  color: var(--main-color, blue); /* Fallback color */
+}
+
+/* Background */
+body {
+  background-color: #fff; /* Background color */
+}
+
+/* Unit */
+h1 {
+  font-size: 2em; /* Relative unit */
+  width: 50%; /* Relative unit */
+  padding: 10px; /* Absolute unit */
+}
+
+/* Box Model */
+body {
+  margin-top: 10px; /* Long margin */
+  margin-right: 20px; /* Long margin */
+  margin-bottom: 30px; /* Long margin */
+  margin-left: 40px; /* Long margin */
+  margin: 10px 20px 30px 40px; /* Short margin */
+  padding-top: 10px; /* Long padding */
+  padding-right: 20px; /* Long padding */
+  padding-bottom: 30px; /* Long padding */
+  padding-left: 40px; /* Long padding */
+  padding: 10px 20px 30px 40px; /* Short padding */
+}
+
+/* Borders */
+body {
+  border-style: solid; /* Border style */
+  border-color: black; /* Border color */
+  border-width: 1px; /* Border width */
+  border-radius: 5px; /* Border radius */
+}
+
+/* Text */
+body {
+  color: black; /* Text color */
+  text-decoration: underline; /* Text decoration */
+  text-align: center; /* Text align */
+}
+
+/* Display */
+h1 {
+  display: block; /* Display block */
+}
+
+h2 {
+  display: inline; /* Display inline */
+}
+
+/* Sizing */
+body {
+  height: 100vh; /* Height */
+  width: 100vw; /* Width */
+  max-width: 1200px; /* Max width */
+  min-width: 800px; /* Min width */
+}
+
+/* Position */
+header {
+  position: static; /* Position static */
+}
+
+footer {
+  position: relative; /* Position relative */
+}
+
+/* Pseudo-class */
+a:hover {
+  color: red; /* Hover pseudo-class */
+}
+
+a:active {
+  color: blue; /* Active pseudo-class */
+}
+
+/* Layouts */
+.container {
+  display: flex; /* Flexbox */
+}
+
+.grid-container {
+  display: grid; /* Grid */
+}
+
+/* Responsiveness */
+@media (max-width: 600px) {
+  body {
+    background-color: lightblue; /* Change background color for small screens */
+  }
+}
+
+/* Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap'); /* Import
