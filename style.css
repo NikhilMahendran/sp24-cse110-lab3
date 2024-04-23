@@ -112,5 +112,9 @@ a:active {
   }
 }
 
+video {
+    width: 100%; /* This will make the video width the same as its container */
+    height: auto; /* This will maintain the aspect ratio of the video */
+}
 /* Fonts */
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap'); /* Import
