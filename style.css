@@ -106,10 +106,70 @@ a:active {
   }
 }
 
-
 /* Fonts */
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap'); /* Import font */
 body {
   font-family: 'Roboto', sans-serif; /* Use imported font */
 }
 
+/* CSS Selectors */
+/* Class Selector (.class) */
+.my-class {
+  color: green;
+}
+
+/* ID Selector (#id) */
+#my-id {
+  background-color: yellow;
+}
+
+/* Universal Selector (*) */
+* {
+  border: 1px solid black;
+}
+
+/* Element Selector (element) */
+p {
+  font-style: italic;
+}
+
+/* Attribute Selector (e.g. [attribute=foo]) */
+[data-type="button"] {
+  font-weight: bold;
+}
+
+/* Pseudo-class Selector (e.g. p:hover) */
+a:visited {
+  text-decoration: line-through;
+}
+
+/* Selector List (element, element) */
+h1, h2 {
+  text-transform: uppercase;
+}
+
+/* Combinators */
+/* Descendant Combinator (element element) */
+header nav {
+  background-color: lightgray;
+}
+
+/* Child Combinator (element > element) */
+ul > li {
+  list-style-type: square;
+}
+
+/* General sibling combinator (element ~ element) */
+h2 ~ p {
+  margin-top: 20px;
+}
+
+/* Adjacent sibling combinator (element + element) */
+h1 + p {
+  font-weight: bold;
+}
+
+/* Combining Two Selectors (element.class) */
+h2.special {
+  color: purple;
+}
