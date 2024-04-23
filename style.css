@@ -3,8 +3,8 @@
 
 /* Color */
 body {
-  color: rgb(0, 0, 0); /* RGB color */
-  color: rgba(0, 0, 0, 1); /* RGBA color */
+  color: rgb(10, 100, 255); /* RGB color */
+  color: rgba(0, 255, 59, 1); /* RGBA color */
   color: #000; /* Hex color */
   color: hsl(0, 0%, 0%); /* HSL color */
   color: hsla(0, 0%, 0%, 1); /* HSLA color */
@@ -22,7 +22,7 @@ body {
 
 /* Background */
 body {
-  background-color: #fff; /* Background color */
+  background-color: red; /* Background color */
 }
 
 /* Unit */
