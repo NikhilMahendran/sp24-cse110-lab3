@@ -11,8 +11,6 @@ body {
   color: hsl(240, 100%, 50%); /* HSL color */
   color: hsla(240, 100%, 50%, 1); /* HSLA color */
   color: blue; /* Color name */
-  color: color(display-p3 0.62 0.79 0.62 / 1);
-  color: color-mix(in srgb, red 50%, blue 50%);
 }
 
 /* CSS Variables & Fallbacks */
