@@ -24,7 +24,7 @@ body {
 
 /* Background */
 body {
-  background-color: color-mix(in srgb, #34c9eb 20%, white); /* Background color */
+  background-color: color-mix(in lch, plum, pink); /* Background color */
 }
 
 /* Unit */
