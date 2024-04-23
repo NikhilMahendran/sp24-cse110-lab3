@@ -1,14 +1,18 @@
+/* General CSS Topics: */
+
 /* Comment */
-/* This is a comment */
+/* This is a comment for better readability */
 
 /* Color */
 body {
-  color: rgb(10, 100, 255); /* RGB color */
-  color: rgba(0, 255, 59, 1); /* RGBA color */
-  color: #000; /* Hex color */
-  color: hsl(0, 0%, 0%); /* HSL color */
-  color: hsla(0, 0%, 0%, 1); /* HSLA color */
-  color: orange; /* Color name */
+  color: rgb(0, 0, 255); /* RGB color */
+  color: rgba(0, 0, 255, 1); /* RGBA color */
+  color: #0000FF; /* Hex color */
+  color: hsl(240, 100%, 50%); /* HSL color */
+  color: hsla(240, 100%, 50%, 1); /* HSLA color */
+  color: blue; /* Color name */
+  color: color(display-p3 0.62 0.79 0.62 / 1); /* Wider-gamut color */
+  color: color-mix(in srgb, red 50%, blue 50%); /* Color mix */
 }
 
 /* CSS Variables & Fallbacks */
@@ -22,7 +26,7 @@ body {
 
 /* Background */
 body {
-  background-color: light blue; /* Background color */
+  background-color: lightblue; /* Background color */
 }
 
 /* Unit */
@@ -34,15 +38,7 @@ h1 {
 
 /* Box Model */
 body {
-  margin-top: 10px; /* Long margin */
-  margin-right: 20px; /* Long margin */
-  margin-bottom: 30px; /* Long margin */
-  margin-left: 40px; /* Long margin */
   margin: 10px 20px 30px 40px; /* Short margin */
-  padding-top: 10px; /* Long padding */
-  padding-right: 20px; /* Long padding */
-  padding-bottom: 30px; /* Long padding */
-  padding-left: 40px; /* Long padding */
   padding: 10px 20px 30px 40px; /* Short padding */
 }
 
@@ -56,7 +52,7 @@ body {
 
 /* Text */
 body {
-  color: black; /* Text color */
+  color: darkblue; /* Text color */
   text-decoration: underline; /* Text decoration */
   text-align: center; /* Text align */
 }
@@ -116,5 +112,10 @@ video {
     width: 100%; /* This will make the video width the same as its container */
     height: auto; /* This will maintain the aspect ratio of the video */
 }
+
 /* Fonts */
-@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap'); /* Import
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap'); /* Import font */
+body {
+  font-family: 'Roboto', sans-serif; /* Use imported font */
+}
+
