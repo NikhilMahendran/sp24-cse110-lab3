@@ -32,6 +32,8 @@ h1 {
   font-size: 2em; /* Relative unit */
   width: 50%; /* Relative unit */
   padding: 10px; /* Absolute unit */
+  margin: 5cm; /* Absolute unit */
+  line-height: 3rem; /* Absolute unit */
 }
 
 /* Box Model */
@@ -64,6 +66,14 @@ h2 {
   display: inline; /* Display inline */
 }
 
+div {
+  display: none; /* Display none */
+}
+
+span {
+  display: inline-block; /* Display inline-block */
+}
+
 /* Sizing */
 body {
   height: 100vh; /* Height */
@@ -81,6 +91,14 @@ footer {
   position: relative; /* Position relative */
 }
 
+div {
+  position: fixed; /* Position fixed */
+}
+
+span {
+  position: absolute; /* Position absolute */
+}
+
 /* Pseudo-class */
 a:hover {
   color: red; /* Hover pseudo-class */
@@ -93,10 +111,16 @@ a:active {
 /* Layouts */
 .container {
   display: flex; /* Flexbox */
+  flex-direction: row; /* Flexbox property */
+  justify-content: center; /* Flexbox property */
+  align-items: center; /* Flexbox property */
 }
 
 .grid-container {
   display: grid; /* Grid */
+  grid-template-columns: auto auto auto; /* Grid property */
+  grid-gap: 10px; /* Grid property */
+  grid-auto-rows: minmax(100px, auto); /* Grid property */
 }
 
 /* Responsiveness */
@@ -172,4 +196,16 @@ h1 + p {
 /* Combining Two Selectors (element.class) */
 h2.special {
   color: purple;
+}
+
+/* New Selectors */
+div:has(p) {
+  background-color: lightgray;
+}
+
+/* Nested Selectors */
+body {
+  & h1 {
+    color: red;
+  }
 }
